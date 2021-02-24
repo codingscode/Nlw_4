@@ -5,8 +5,8 @@ interface DadosDeEnvioEmail {
     texto: string
 }
  
-function enviarEmail(dados: DadosDeEnvioEmail) {
-    console.log(dados.para, dados.id, dados.assunto, dados.texto)
+function enviarEmail({ para, id, assunto, texto }: DadosDeEnvioEmail) {
+    console.log(para, id, assunto, texto)
 }
  
 class EnviarEmailParaUsuario {

@@ -4,8 +4,12 @@
 -----------------------------------------------
 trilha nodejs
 
-
-
+no terminal da pasta digitar:
+    npm init -y
+    npm i express
+    npm i --save-dev @types/express -D    -> para melhorar
+    npm i typescript -D
+    npx tsc --init
 
 
 
