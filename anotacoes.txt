@@ -16,6 +16,15 @@ no terminal da pasta digitar:
 
 no browser ver -> http://localhost:3333/usuarios    *idem
 
+usar o postman ou insomnia
+
+ir no insomnia ir na url raíz e usar método post e clicar em send:
+         {
+           "mensagem": "Os dados foram salvos com sucesso!"
+         }
+
+
+         
 
 
 
