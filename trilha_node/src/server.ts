@@ -7,7 +7,7 @@ get -> acessar, post -> salvar/enviar, put -> alterar/colocar, delete -> apagar,
 */
 
 app.get('/usuarios', (req, resp) => {
-    return resp.send('Olá Mundo - NLW4')
+    return resp.json({mensagem: 'Olá mundo - NLW4', dia: 1})
 })
 
 app.listen(3333, () => console.log('Servidor está rodando!'))

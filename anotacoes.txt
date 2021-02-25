@@ -14,7 +14,7 @@ no terminal da pasta digitar:
     npm run dev
 
 
-no browser ver -> http://localhost:3333/usuarios
+no browser ver -> http://localhost:3333/usuarios    *idem
 
 
 
