@@ -10,6 +10,8 @@ no terminal da pasta digitar:
     npm i --save-dev @types/express -D    -> para melhorar
     npm i typescript -D
     npx tsc --init
+    npm i ts-node-dev -D
+    npm run dev
 
 
 
