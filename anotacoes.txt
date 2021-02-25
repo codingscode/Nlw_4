@@ -23,13 +23,32 @@ ir no insomnia ir na url raíz e usar método post e clicar em send:
            "mensagem": "Os dados foram salvos com sucesso!"
          }
 
+ir no insomnia ir na url raíz e usar método get e clicar em send:
+        {
+            "mensagem": "Olá mundo - NLW4",
+            "dia": 1
+        }
 
          
 
 
 
+
+
+
+
+
+
+
+
+
+
 -----------------------------------------------
 trilha reactjs
+
+
+
+
 
 
 
