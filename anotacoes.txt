@@ -62,6 +62,15 @@ no terminal da pasta trilha_node digitar:
 trilha reactjs
 
 
+digitar na pasta do do projeto (trilha_react) :
+     npx create-react-app movase --template=typescript
+
+
+digitar no terminal da pasta criada movase:
+     npm start
+
+
+
 
 
 
