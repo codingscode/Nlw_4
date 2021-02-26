@@ -49,7 +49,10 @@ https://typeorm.io/#/      -> usado
 na pasta do arquivo server.ts rodar no terminal:  npm run dev
        -> isso gera um arquivo database.sqlite na pasta database
 
+configurando migration
 
+no terminal da pasta trilha_node digitar:
+    npm run typeorm
 
 
 
