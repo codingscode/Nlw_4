@@ -13,6 +13,13 @@ no terminal da pasta digitar:
     npm i ts-node-dev -D
     npm run dev
 
+    npm install typeorm --save
+    npm install reflect-metadata --save
+        ou npm i typeorm reflect-metadata --save
+    npm install sqlite3 --save
+    
+
+
 
 no browser ver -> http://localhost:3333/usuarios    *idem
 
@@ -31,11 +38,16 @@ ir no insomnia ir na url raíz e usar método get e clicar em send:
 
          
 
+https://node-postgres.com/
+
+http://knexjs.org/
+
+https://typeorm.io/#/      -> usado
+    https://typeorm.io/#/using-ormconfig
 
 
-
-
-
+na pasta do arquivo server.ts rodar no terminal:  npm run dev
+       -> isso gera um arquivo database.sqlite na pasta database
 
 
 
