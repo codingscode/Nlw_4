@@ -52,7 +52,11 @@ na pasta do arquivo server.ts rodar no terminal:  npm run dev
 configurando migration
 
 no terminal da pasta trilha_node digitar:
-    npm run typeorm
+    npx typeorm
+    npx typeorm migration:create -n CreateUsers
+         -> cria um novo arquivo na pasta migrations
+
+
 
 
 
