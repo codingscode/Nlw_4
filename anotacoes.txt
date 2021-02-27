@@ -55,14 +55,15 @@ no terminal da pasta trilha_node digitar:
     npx typeorm
     npx typeorm migration:create -n CreateUsers
          -> cria um novo arquivo na pasta migrations
-    npx typeorm migration:run
+    npx typeorm migration:run  
+    npm run typeorm migration:run  
 
 
 
 
 instalar extensão do vscode sqlite
 
-
+aparece a tabela users
 
 
 -----------------------------------------------
