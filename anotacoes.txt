@@ -57,13 +57,23 @@ no terminal da pasta trilha_node digitar:
          -> cria um novo arquivo na pasta migrations
     npx typeorm migration:run  
     npm run typeorm migration:run  
-
+    npm run dev
 
 
 
 instalar extensão do vscode sqlite
 
 aparece a tabela users
+
+no body digitar:
+    {
+        "name": "Aladin",
+        "email": "aladinda13@gmail.com"
+    }
+
+no console aparece 'undefined'
+
+
 
 
 -----------------------------------------------
