@@ -6,9 +6,9 @@ function App() {
     return (
       <div>
         Oi NLW 4
-        <Button />
-        <Button />
-        <Button />
+        <Button color="red" />
+        <Button color="green" />
+        <Button color="purple" />
       </div>
     )
 }
