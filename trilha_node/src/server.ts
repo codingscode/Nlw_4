@@ -9,7 +9,19 @@ const app = express()
 get -> acessar, post -> salvar/enviar, put -> alterar/colocar, delete -> apagar, patch -> alteração específica
 */
 
+app.use(express.json())
+
 app.use(router)
+
+
+
+
+app.listen(3333, () => console.log('Servidor está rodando!'))
+
+
+
+
+
 
 
 /* app.get('/', (req, resp) => {
@@ -20,12 +32,3 @@ app.post('/', (req, resp) => {
     // recebeu os dados para salvar
     return resp.json({ mensagem: 'Os dados foram salvos com sucesso!' })
 }) */
- 
-
-app.listen(3333, () => console.log('Servidor está rodando!'))
-
-
-
-
-
-

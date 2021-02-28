@@ -65,7 +65,7 @@ instalar extensão do vscode sqlite
 
 aparece a tabela users
 
-no body digitar:
+no body digitar: (novamente)
     {
         "name": "Aladin",
         "email": "aladinda13@gmail.com"
@@ -73,6 +73,7 @@ no body digitar:
 
 no console aparece 'undefined'
 
+no console aparece '{ name: 'Aladin', email: 'aladinda13@gmail.com' }'
 
 
 
