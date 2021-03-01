@@ -67,7 +67,7 @@ instalar extensão do vscode sqlite
 
 aparece a tabela users
 
-no body digitar: (novamente**)
+no body digitar: (novamente***)
     {
         "name": "Aladin",
         "email": "aladinda13@gmail.com"
@@ -89,6 +89,16 @@ no body digitar: (novamente**)
 no console aparece 'undefined'
 
 no console aparece '{ name: 'Aladin', email: 'aladinda13@gmail.com' }'
+
+aparece no console:
+    Apollo apolloda13@gmail.com
+    query: SELECT "User"."id" AS "User_id", "User"."name" AS "User_name", "User"."email" AS "User_email", "User"."created_at" AS "User_created_at" FROM "users" "User" WHERE "User"."email" = ? LIMIT 1 -- PARAMETERS: ["apolloda13@gmail.com"]
+    query: SELECT "User"."id" AS "User_id", "User"."name" AS "User_name", "User"."email" AS "User_email", "User"."created_at" AS "User_created_at" FROM "users" "User" WHERE "User"."id" IN (?) -- PARAMETERS: ["a729f677-5405-4e81-85d5-f8e4733a566b"]
+    query: BEGIN TRANSACTION
+    query: INSERT INTO "users"("id", "name", "email", "created_at") VALUES (?, ?, ?, datetime('now')) -- PARAMETERS: ["a729f677-5405-4e81-85d5-f8e4733a566b","Apollo","apolloda13@gmail.com"]
+    query: SELECT "User"."id" AS "User_id", "User"."created_at" AS "User_created_at" FROM "users" "User" WHERE "User"."id" = ? -- PARAMETERS: ["a729f677-5405-4e81-85d5-f8e4733a566b"]
+    query: COMMIT
+
 
 
 
