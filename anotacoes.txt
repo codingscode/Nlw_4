@@ -58,18 +58,29 @@ no terminal da pasta trilha_node digitar:
     npx typeorm migration:run  
     npm run typeorm migration:run  
     npm run dev
-
+    npm i uuid
+    npm i @types/uuid -D
+    npm run dev
 
 
 instalar extensão do vscode sqlite
 
 aparece a tabela users
 
-no body digitar: (novamente)
+no body digitar: (novamente*)
     {
         "name": "Aladin",
         "email": "aladinda13@gmail.com"
     }
+
+    --> no preview do insomnia aparece:
+        {
+            "id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
+            "name": "Aladin",
+            "email": "aladinda13@gmail.com",
+            "created_at": "2021-03-01T13:35:28.000Z"
+        }
+
 
 no console aparece 'undefined'
 
