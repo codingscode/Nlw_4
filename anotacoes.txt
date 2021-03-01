@@ -67,7 +67,7 @@ instalar extensão do vscode sqlite
 
 aparece a tabela users
 
-no body digitar: (novamente*)
+no body digitar: (novamente**)
     {
         "name": "Aladin",
         "email": "aladinda13@gmail.com"
@@ -81,6 +81,10 @@ no body digitar: (novamente*)
             "created_at": "2021-03-01T13:35:28.000Z"
         }
 
+    --> no preview do insomnia aparece:
+        {
+            "error": "Usuário já existe!"
+        }
 
 no console aparece 'undefined'
 
