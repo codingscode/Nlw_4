@@ -14,7 +14,7 @@ export function Button(props: ButtonProps) {
      }
 
      return(
-         <button type="button" style={{background: props.color, color: 'white'}} onClick={increment} >
+         <button type="button" style={{background: props.color}} onClick={increment} >
              {props.children} || <strong>{counter}</strong>
          </button>
      )
