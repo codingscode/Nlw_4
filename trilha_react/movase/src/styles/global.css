@@ -7,7 +7,7 @@
 :root {
     --white: #fff;
     --background: #eae0c8;
-    --gray-line: #DCDDE0;
+    --gray-line: #9da5bd;
     --text: #666666;
     --text-highlight: #B3B9FF;
     --title: #2E384D;
@@ -49,7 +49,20 @@ a {
 }
 
 .experience-bar {
-    
+    display: flex;
+    align-items: center;
 }
 
+.experience-bar span {
+    font-size: 1rem;
+}
+  
+.experience-bar > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+}
 
