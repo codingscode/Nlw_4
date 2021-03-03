@@ -102,6 +102,7 @@ aparece no console:
 
 no terminal da pasta trilha_node digitar:
       npm run dev
+      npx typeorm migration:create -n CreateSurveys
 
 
 
@@ -122,7 +123,7 @@ aparece no preview:
     }
 
 
-
+é criado um novo arquivo
 
 
 
