@@ -191,6 +191,7 @@ digitar no terminal da pasta criada movase-next:
    npx create-next-app movase-next
    npm run dev
    npm i typescript @types/react @types/react-dom @types/node -D
+   npm run dev
 
 
 endereço ->  http://localhost:3000
@@ -199,6 +200,7 @@ endereço ->  http://localhost:3000
 os arquivos da pasta pages troca-se o formato para '.tsx'
 surgem outros arquivos
 
+migrando arquivos do 1º projeto react para este react next
 
 
 
