@@ -184,15 +184,16 @@ https://fonts.google.com/
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
 
 
+Nextjs
+
+
+digitar no terminal da pasta criada movase:
+   npx create-next-app movase-next
+   npm run dev
 
 
 
-
-
-
-
-
-
+endereço ->  http://localhost:3000
 
 
 
