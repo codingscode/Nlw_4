@@ -159,6 +159,26 @@ usar no insomnia, com post do survey:
         }
 
 
+no terminal da pasta trilha_node digitar:
+    npm run dev
+
+
+no insomnia em Surveys -> Show -> send:
+     aparece:
+     [
+        {
+            "id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+            "title": "diga sua opinião.",
+            "description": "de 0 a 10",
+            "created_at": "2021-03-04T00:15:35.000Z"
+        }
+     ]
+
+
+
+
+
+
 
 
 
