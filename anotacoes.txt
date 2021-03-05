@@ -161,6 +161,8 @@ usar no insomnia, com post do survey:
 
 no terminal da pasta trilha_node digitar:
     npm run dev
+    npm i jest @types/jest -D
+    npx jest --init           // arquivo é gerado
 
 
 no insomnia em Surveys -> Show -> send:
