@@ -164,7 +164,7 @@ no terminal da pasta trilha_node digitar:
     npm i jest @types/jest -D
     npx jest --init           // arquivo é gerado
     npm i ts-jest -D
-    npm run test
+    npm run test   *
 
 
 no insomnia em Surveys -> Show -> send:
