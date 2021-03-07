@@ -1,9 +1,10 @@
+
 describe('First', () => {
     it('deve ser possivel somar 2 números', () => {
        expect(2 + 2).toBe(4)
     })
     it('deve ser possivel somar 2 números', () => {
-       expect(2 + 3).toBe(10)
+       expect(2 + 3).not.toBe(10)
     })
 })
 
