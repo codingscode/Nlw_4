@@ -19,6 +19,14 @@ describe('Users', () => {
 
         expect(response.status).toBe(201)
     })
+
+    it('Inapto para criar um usuário cujo email já existe', async () => {
+        const response = await request(app).post('/users').send({
+            email: 'user@example.com', name: 'User Example'
+        })
+     
+        expect(response.status).toBe(400)
+    })
 })
 
 

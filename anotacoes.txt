@@ -194,6 +194,7 @@ set NODE_ENV=production&&npm start
 no terminal da pasta trilha_node digitar:
     npm run test   
 
+
 aparece no console:
 
 > trilha_node@1.0.0 test C:\Meus_Arquivos\github_nlw4\trilha_node
@@ -292,6 +293,8 @@ Ran all test suites.
 
 -----------
 
+no terminal da pasta trilha_node digitar:
+    npm run test   
 
 
 
