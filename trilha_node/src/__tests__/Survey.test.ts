@@ -18,6 +18,7 @@ describe('Surveys', () => {
           })
 
         expect(response.status).toBe(201)
+        expect(response.body).toHaveProperty('id')
     })
 
   
