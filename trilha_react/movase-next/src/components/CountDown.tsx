@@ -17,7 +17,11 @@ export default function CountDown() {
     }
 
     useEffect(() => {
-        console.log(active)
+        if (active && time > 0) {
+            setTimeout(() => {
+              setTime(time - 1)
+            }, 1000)
+        }
     }, [active])
 
     return (
