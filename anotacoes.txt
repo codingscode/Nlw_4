@@ -294,9 +294,12 @@ Ran all test suites.
 -----------
 
 no terminal da pasta trilha_node digitar:
-    npm run test   
+    npm run test    *
 
 
+
+remover arquivo src/database/database.test.sqlite
+    nao esta sendo possivel
 
 
 
