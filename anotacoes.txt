@@ -352,7 +352,7 @@ surgem outros arquivos
 
 migrando arquivos do 1º projeto react para este react next
 
-
+clicar no botão e ver console do browser
 
 
 -----------------------------------------------
