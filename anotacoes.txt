@@ -294,7 +294,8 @@ Ran all test suites.
 -----------
 
 no terminal da pasta trilha_node digitar:
-    npm run test    *
+    npm run test    **
+    rm ./src/database/database.test.sqlite
 
 
 
