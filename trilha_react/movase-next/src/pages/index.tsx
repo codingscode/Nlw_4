@@ -10,6 +10,9 @@ import CountDown from '../components/CountDown'
 export default function Home() {
     return (
       <div className={styles.container} >
+         <Head>
+            <title>Início | mova-se</title>
+         </Head>
          <ExperienceBar />
 
          <section>
