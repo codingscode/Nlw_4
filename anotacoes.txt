@@ -356,6 +356,8 @@ clicar no botão e ver console do browser
 
 só diminui um segundo
 
+o contagem regressiva já funciona
+
 
 -----------------------------------------------
 -----------------------------------------------

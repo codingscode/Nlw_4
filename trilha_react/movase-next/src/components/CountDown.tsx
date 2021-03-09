@@ -22,7 +22,7 @@ export default function CountDown() {
               setTime(time - 1)
             }, 1000)
         }
-    }, [active])
+    }, [active, time])
 
     return (
         <div>
