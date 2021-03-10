@@ -54,7 +54,9 @@ export default function CountDown() {
                 </div>
             </div>
 
-            {hasFinished && (<p>Terminou...</p>)}
+            {hasFinished && (
+               <button disabled className={styles.countdownButton} >Ciclo encerrado</button>
+            )}
             {isActive ? (
                 <button type="button" className={`${styles.countdownButton} ${styles.countdownButtonActive}`} onClick={resetCountdown} >
                    Abandonar ciclo
