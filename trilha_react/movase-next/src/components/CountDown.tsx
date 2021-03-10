@@ -13,7 +13,11 @@ export default function CountDown() {
     const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('')
 
     function startCountdown() {
-       setIsActive(!isActive)
+       setIsActive(true)
+    }
+
+    function resetCountdown() {
+       setIsActive(false)
     }
 
     useEffect(() => {
@@ -37,9 +41,15 @@ export default function CountDown() {
                     <span>{secondRight}</span>
                 </div>
             </div>
-            <button type="button" className={styles.countdownButton} onClick={startCountdown} >
-                {isActive ? 'Abandonar ciclo' : 'Iniciar ciclo'}
-            </button>
+            {isActive ? (
+                <button type="button" className={`${styles.countdownButton} ${styles.countdownButtonActive}`} onClick={resetCountdown} >
+                   Abandonar ciclo
+                </button>
+            ) : (
+                <button type="button" className={`${styles.countdownButton}`} onClick={startCountdown} >
+                   Iniciar ciclo
+                </button>
+            )}
         </div>
     )
 }
