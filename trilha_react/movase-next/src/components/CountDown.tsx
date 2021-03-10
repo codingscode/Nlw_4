@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import styles from '../styles/components/CountDown.module.css'
 
 
+let countdownTimeout: NodeJS.Timeout
+
+
 export default function CountDown() {
     const [time, setTime] = useState(25*60)
     const [isActive, setIsActive] = useState(false)
@@ -17,12 +20,13 @@ export default function CountDown() {
     }
 
     function resetCountdown() {
+       clearTimeout(countdownTimeout)
        setIsActive(false)
     }
 
     useEffect(() => {
         if (isActive && time > 0) {
-            setTimeout(() => {
+            countdownTimeout = setTimeout(() => {
               setTime(time - 1)
             }, 1000)
         }

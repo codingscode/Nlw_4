@@ -358,6 +358,8 @@ só diminui um segundo
 
 o contagem regressiva já funciona
 
+evita o delay de 1 segundo
+
 
 -----------------------------------------------
 -----------------------------------------------
