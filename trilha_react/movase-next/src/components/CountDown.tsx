@@ -6,8 +6,9 @@ let countdownTimeout: NodeJS.Timeout
 
 
 export default function CountDown() {
-    const [time, setTime] = useState(25*60)
+    const [time, setTime] = useState(3)
     const [isActive, setIsActive] = useState(false)
+    const [hasFinished, setHasFinished] = useState(false)
 
     const minutes = Math.floor(time / 60)
     const seconds = time % 60
@@ -22,6 +23,7 @@ export default function CountDown() {
     function resetCountdown() {
        clearTimeout(countdownTimeout)
        setIsActive(false)
+       setTime(25*60)
     }
 
     useEffect(() => {
@@ -30,6 +32,12 @@ export default function CountDown() {
               setTime(time - 1)
             }, 1000)
         }
+        else if (isActive && time == 0) {
+            console.log('finalizou')
+            setHasFinished(true)
+            setIsActive(false)
+        }
+         
     }, [isActive, time])
 
     return (
@@ -45,6 +53,8 @@ export default function CountDown() {
                     <span>{secondRight}</span>
                 </div>
             </div>
+
+            {hasFinished && (<p>Terminou...</p>)}
             {isActive ? (
                 <button type="button" className={`${styles.countdownButton} ${styles.countdownButtonActive}`} onClick={resetCountdown} >
                    Abandonar ciclo
