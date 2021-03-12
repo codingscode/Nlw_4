@@ -1,11 +1,15 @@
-import { useEffect, useState } from 'react'
 import styles from '../styles/components/CountDown.module.css'
+import { useContext, useEffect, useState } from 'react'
+import { ChallengesContext } from '../contexts/ChallengesContext'
 
 
 let countdownTimeout: NodeJS.Timeout
 
 
 export default function CountDown() {
+    const contextData = useContext(ChallengesContext)
+    console.log(contextData)
+
     const [time, setTime] = useState(3)
     const [isActive, setIsActive] = useState(false)
     const [hasFinished, setHasFinished] = useState(false)
