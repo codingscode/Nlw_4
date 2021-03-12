@@ -360,6 +360,8 @@ o contagem regressiva já funciona
 
 evita o delay de 1 segundo
 
+ver o console no browser
+
 
 -----------------------------------------------
 -----------------------------------------------
