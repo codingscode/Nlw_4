@@ -36,6 +36,45 @@
    margin-top: 3rem;
 }
 
+.challengeNotActive p img {
+   margin-bottom: 3rem;
+}
+
+.challengeActive {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.challengeActive header {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--gray-line);
+}
+
+.challengeActive main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.challengeActive main strong {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title);
+    margin: 1.5rem 0 1rem;
+}
+
+
+
+
+
+
+
 
 
 
