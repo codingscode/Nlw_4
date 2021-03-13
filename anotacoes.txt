@@ -364,7 +364,7 @@ ver o console no browser *
 
 clicar em 'Iniciar ciclo' e esperar terminar e ver console no browser
 
-
+clicar em 'Iniciar ciclo'
 
 
 
