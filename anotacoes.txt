@@ -368,6 +368,10 @@ clicar em 'Iniciar ciclo'
 
 clicar em 'Iniciar ciclo' e depois em 'falhei'
 
+context é como substituisse o redux
+
+clicar em 'Iniciar ciclo' e depois em 'completei'.     ver a barra em cima e 'desafios completos', ambos aumentam
+
 
 
 
