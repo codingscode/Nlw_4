@@ -372,7 +372,7 @@ context é como substituisse o redux
 
 clicar em 'Iniciar ciclo' e depois em 'completei'.     ver a barra em cima e 'desafios completos', ambos aumentam
 
-
+clicar em 'Iniciar ciclo' e depois em 'completei' ou 'falhei'.   a tela já reseta e passa de nível
 
 
 
