@@ -376,6 +376,7 @@ clicar em 'Iniciar ciclo' e depois em 'completei' ou 'falhei'.   a tela já rese
 
 Aparece notificação
 
+Toca audio
 
 
 -----------------------------------------------
