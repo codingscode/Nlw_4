@@ -374,6 +374,7 @@ clicar em 'Iniciar ciclo' e depois em 'completei'.     ver a barra em cima e 'de
 
 clicar em 'Iniciar ciclo' e depois em 'completei' ou 'falhei'.   a tela já reseta e passa de nível
 
+Aparece notificação
 
 
 
