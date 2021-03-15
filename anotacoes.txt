@@ -390,7 +390,7 @@ ver no browser o console:  { level: 1, currentExperience: 50, challengesComplete
 
 ver o console do vscode: { level: 1, currentExperience: 50, challengesCompleted: 2 }.   Nao aparece no console do browser
 
- 
+tanto no console do browser quanto no do vscode aparece:  { level: '1', currentExperience: '0', challengesCompleted: '0' }
 
 
 
