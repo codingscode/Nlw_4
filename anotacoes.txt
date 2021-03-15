@@ -379,6 +379,18 @@ Aparece notificação
 Toca audio
 
 
+digitar no terminal da pasta criada movase-next:
+    npm i js-cookie
+    npm i @types/js-cookie -D
+
+
+ir em Application -> Storage -> Cookies -> http://localhost:3000
+
+
+
+
+
+
 -----------------------------------------------
 -----------------------------------------------
 
