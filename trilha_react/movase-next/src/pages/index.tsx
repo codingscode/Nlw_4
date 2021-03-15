@@ -10,7 +10,7 @@ import { CountdownProvider } from '../contexts/CountdownContext'
 
 
 export default function Home(props) {
-    console.log(props)
+    //console.log(props)
 
     return (
       <div className={styles.container} >
@@ -39,7 +39,8 @@ export const getServerSideProps = async () => {
    const user = {
       level: 1, currentExperience: 50, challengesCompleted: 2
    }
-
+   
+   console.log(user)
    return {
       props: user
    }

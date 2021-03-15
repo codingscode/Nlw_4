@@ -388,8 +388,9 @@ ir em Application -> Storage -> Cookies -> http://localhost:3000
 
 ver no browser o console:  { level: 1, currentExperience: 50, challengesCompleted: 2 }
 
+ver o console do vscode: { level: 1, currentExperience: 50, challengesCompleted: 2 }.   Nao aparece no console do browser
 
-
+ 
 
 
 
