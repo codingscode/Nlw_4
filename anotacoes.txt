@@ -386,6 +386,11 @@ digitar no terminal da pasta criada movase-next:
 
 ir em Application -> Storage -> Cookies -> http://localhost:3000
 
+ver no browser o console:  { level: 1, currentExperience: 50, challengesCompleted: 2 }
+
+
+
+
 
 
 
