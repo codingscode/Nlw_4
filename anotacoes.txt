@@ -396,7 +396,7 @@ no commit anterior fica armazenado a impressão de mudança de level mesmo volta
 
 agora apertando f5 no browser, os dados são armazenados. há impressão deles no console do browser e do vscode
 
-
+o 'x' do modal não fecha ainda
 
 
 

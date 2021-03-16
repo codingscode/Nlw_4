@@ -4,7 +4,7 @@ import { ChallengesContext } from '../contexts/ChallengesContext'
 
 
 export function LevelUpModal() {
-    const { level } = useContext(ChallengesContext)
+   const { level } = useContext(ChallengesContext)
 
    return (
       <div className={styles.overlay} >
