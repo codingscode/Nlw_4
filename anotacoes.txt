@@ -382,6 +382,15 @@ Toca audio
 digitar no terminal da pasta criada movase-next:
     npm i js-cookie
     npm i @types/js-cookie -D
+    npm i -g vercel
+
+digitar no cmd windows:
+    vercel -h
+    dentro do endereço do projeto:
+       vercel login
+       vercel
+       
+       
 
 
 ir em Application -> Storage -> Cookies -> http://localhost:3000
@@ -397,6 +406,8 @@ no commit anterior fica armazenado a impressão de mudança de level mesmo volta
 agora apertando f5 no browser, os dados são armazenados. há impressão deles no console do browser e do vscode
 
 o 'x' do modal não fecha ainda
+
+no commit anterior o 'x' do modal já fecha
 
 
 
