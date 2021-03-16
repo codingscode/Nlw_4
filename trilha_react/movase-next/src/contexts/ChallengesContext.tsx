@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
 import challenges from '../../challenges.json'
 import Cookies from 'js-cookie'
+import { LevelUpModal } from '../components/LevelUpModal'
 
 
 export const ChallengesContext = createContext({} as ChallengesContextData )
@@ -90,6 +91,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
     return (
         <ChallengesContext.Provider value={{ level, currentExperience, challengesCompleted, levelUp, startNewChallenge, activeChallenge, resetChallenge, experienceToNextLevel, completeChallenge }} >
             {children}
+            <LevelUpModal />
         </ChallengesContext.Provider>
     )
 }
