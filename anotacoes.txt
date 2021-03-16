@@ -392,6 +392,22 @@ ver o console do vscode: { level: 1, currentExperience: 50, challengesCompleted:
 
 tanto no console do browser quanto no do vscode aparece:  { level: '1', currentExperience: '0', challengesCompleted: '0' }
 
+no commit anterior fica armazenado a impressão de mudança de level mesmo voltando tudo de novo com f5
+
+agora apertando f5 no browser, os dados são armazenados. há impressão deles no console do browser e do vscode
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
