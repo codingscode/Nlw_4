@@ -297,7 +297,7 @@ no terminal da pasta trilha_node digitar:
     npm run test                               // novamente
     rm ./src/database/database.test.sqlite     // novamente
     npx typeorm migration:create -n CreateSurveysUsers
-    
+    npm run typeorm migration:run
 
 
 
@@ -306,7 +306,7 @@ remover arquivo src/database/database.test.sqlite
 
 um arquivo é criado
 
-
+observar o console
 
 
 
