@@ -296,7 +296,7 @@ Ran all test suites.
 no terminal da pasta trilha_node digitar:
     npm run test                               // novamente
     rm ./src/database/database.test.sqlite     // novamente
-    
+    npx typeorm migration:create -n CreateSurveysUsers
     
 
 
@@ -304,7 +304,7 @@ no terminal da pasta trilha_node digitar:
 remover arquivo src/database/database.test.sqlite
     nao esta sendo possivel
 
-
+um arquivo é criado
 
 
 
