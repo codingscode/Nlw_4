@@ -294,8 +294,10 @@ Ran all test suites.
 -----------
 
 no terminal da pasta trilha_node digitar:
-    npm run test    **
-    rm ./src/database/database.test.sqlite
+    npm run test                               // novamente
+    rm ./src/database/database.test.sqlite     // novamente
+    
+    
 
 
 
