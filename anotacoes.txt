@@ -389,8 +389,11 @@ digitar no cmd windows:
     dentro do endereço do projeto:
        vercel login
        vercel
+
        
        
+deploy:
+   https://nlw-4-ierzogi4a-codingscode.vercel.app/
 
 
 ir em Application -> Storage -> Cookies -> http://localhost:3000
