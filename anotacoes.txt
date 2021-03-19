@@ -298,6 +298,7 @@ no terminal da pasta trilha_node digitar:
     rm ./src/database/database.test.sqlite     // novamente
     npx typeorm migration:create -n CreateSurveysUsers
     npm run typeorm migration:run
+    npm run dev
 
 
 
@@ -308,6 +309,18 @@ um arquivo é criado
 
 observar o console
 
+ver o insomnia, e digitar no body:
+  {
+    "email": "aladinda13@gmail.com",
+    "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7"
+  }
+tem o seguinte output:
+{
+  "id": "26299178-5a85-4437-b286-a2a3c9d7260f",
+  "user_id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
+  "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+  "created_at": "2021-03-19T00:40:01.000Z"
+}
 
 
 
