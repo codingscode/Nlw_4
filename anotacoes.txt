@@ -299,6 +299,9 @@ no terminal da pasta trilha_node digitar:
     npx typeorm migration:create -n CreateSurveysUsers
     npm run typeorm migration:run
     npm run dev
+    npm install nodemailer
+    npm i @types/nodemailer -D
+    npm run dev
 
 
 
@@ -321,6 +324,49 @@ tem o seguinte output:
   "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
   "created_at": "2021-03-19T00:40:01.000Z"
 }
+
+
+https://nodemailer.com/about/
+
+
+ver o insomnia, e digitar no body:
+  {
+    "email": "aladinda13@gmail.com",
+    "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7"
+  }
+o preview aparece:
+    {
+      "id": "efe8e9d5-f02b-4170-a5b6-3830b4984bca",
+      "user_id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
+      "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+      "created_at": "2021-03-20T02:05:25.000Z"
+    }
+
+no console do vscode aparece:
+query: SELECT "User"."id" AS "User_id", "User"."name" AS "User_name", "User"."email" AS "User_email", "User"."created_at" AS "User_created_at" FROM 
+"users" "User" WHERE "User"."email" = ? LIMIT 1 -- PARAMETERS: ["aladinda13@gmail.com"]
+query: SELECT "Survey"."id" AS "Survey_id", "Survey"."title" AS "Survey_title", "Survey"."description" AS "Survey_description", "Survey"."created_at" AS "Survey_created_at" FROM "surveys" "Survey" WHERE "Survey"."id" = ? LIMIT 1 -- PARAMETERS: ["beefb0a3-a6ff-465b-9bd4-4618bc305cc7"]
+query: SELECT "SurveyUser"."id" AS "SurveyUser_id", "SurveyUser"."user_id" AS "SurveyUser_user_id", "SurveyUser"."survey_id" AS "SurveyUser_survey_id", "SurveyUser"."value" AS "SurveyUser_value", "SurveyUser"."created_at" AS "SurveyUser_created_at" FROM "surveys_users" "SurveyUser" WHERE "SurveyUser"."id" IN (?) -- PARAMETERS: ["efe8e9d5-f02b-4170-a5b6-3830b4984bca"]
+query: BEGIN TRANSACTION
+query: INSERT INTO "surveys_users"("id", "user_id", "survey_id", "value", "created_at") VALUES (?, ?, ?, NULL, datetime('now')) -- PARAMETERS: ["efe8e9d5-f02b-4170-a5b6-3830b4984bca","6138bd60-1ed7-45d0-b9c1-04d8838a1112","beefb0a3-a6ff-465b-9bd4-4618bc305cc7"]
+query: SELECT "SurveyUser"."id" AS "SurveyUser_id", "SurveyUser"."created_at" AS "SurveyUser_created_at" FROM "surveys_users" "SurveyUser" WHERE "SurveyUser"."id" = ? -- PARAMETERS: ["efe8e9d5-f02b-4170-a5b6-3830b4984bca"]
+query: COMMIT
+Mensagem enviada: <e3077a70-6477-7f44-2d8b-a2abab0daa46@nps.com.br>
+Preview URL: https://ethereal.email/message/YFVYNLypNQPVlsUUYFVYafKgtgZN-1YgAAAAARhDCOJ4qOhnylFxstdUsus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
