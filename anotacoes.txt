@@ -357,6 +357,15 @@ Preview URL: https://ethereal.email/message/YFVYNLypNQPVlsUUYFVYafKgtgZN-1YgAAAA
 
 
 
+no terminal da pasta trilha_node digitar:
+   npm i handlebars
+
+https://handlebarsjs.com/guide/
+
+
+
+
+
 
 
 
