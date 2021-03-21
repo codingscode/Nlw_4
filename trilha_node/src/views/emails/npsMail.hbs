@@ -18,6 +18,19 @@
         text-decoration: none;
     }
 
+    .level {
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .answers {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+
 </style>
 
 <div class="container">
@@ -25,6 +38,12 @@
     <h3>{{title}}</h3>
     <br/>
     <strong>{{description}}</strong>
+
+    <div class="level" >
+        <span>Pouco provável</span>
+        <span>Muito provável</span>
+    </div>
+
     <div class="answers">
         <a class="value" href="">1</a>
         <a class="value" href="">2</a>
