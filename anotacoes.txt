@@ -376,6 +376,32 @@ removendo linhas manualmente
 no insomnia clicando mais de uma vez em 'send', no banco de dados fica só um registro
 
 
+ver o insomnia, e digitar no body:  
+  {
+    "email": "aladinda13@gmail.com",
+    "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7"
+  }
+
+  no preview aparece:
+    {
+        "id": "0c42a4c4-4b2e-4a70-b6b8-abd60b097ee9",
+        "user_id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
+        "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+        "value": null,
+        "created_at": "2021-03-22T00:22:13.000Z",
+        "user": {
+            "id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
+            "name": "Aladin",
+            "email": "aladinda13@gmail.com",
+            "created_at": "2021-03-01T13:35:28.000Z"
+        },
+        "survey": {
+            "id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+            "title": "diga sua opinião.",
+            "description": "de 0 a 10",
+            "created_at": "2021-03-04T00:15:35.000Z"
+        }
+    }
 
 
 
