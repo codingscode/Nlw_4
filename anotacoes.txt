@@ -329,12 +329,12 @@ tem o seguinte output:
 https://nodemailer.com/about/
 
 
-ver o insomnia, e digitar no body: //novamente
+ver o insomnia, e digitar no body:  //novamente
   {
     "email": "aladinda13@gmail.com",
     "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7"
   }
-o preview aparece:  // diferente nas próximas
+o preview aparece:   // diferente nas próximas
     {
       "id": "efe8e9d5-f02b-4170-a5b6-3830b4984bca",
       "user_id": "6138bd60-1ed7-45d0-b9c1-04d8838a1112",
@@ -359,6 +359,8 @@ Preview URL: https://ethereal.email/message/YFVYNLypNQPVlsUUYFVYafKgtgZN-1YgAAAA
 
 no terminal da pasta trilha_node digitar:
    npm i handlebars
+   npm run dev
+
 
 https://handlebarsjs.com/guide/
 
@@ -366,11 +368,12 @@ experimentar clicar nos números:
    aparece: Cannot GET /answers/8
 
 
+
 https://sqliteonline.com/
 
 removendo linhas manualmente
 
-
+no insomnia clicando mais de uma vez em 'send', no banco de dados fica só um registro
 
 
 
