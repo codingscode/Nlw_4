@@ -366,7 +366,9 @@ experimentar clicar nos números:
    aparece: Cannot GET /answers/8
 
 
+https://sqliteonline.com/
 
+removendo linhas manualmente
 
 
 
