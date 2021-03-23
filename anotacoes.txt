@@ -361,6 +361,7 @@ no terminal da pasta trilha_node digitar:
    npm i handlebars
    npm run dev
    npm run dev
+   npm run dev
 
 
 https://handlebarsjs.com/guide/
@@ -447,6 +448,20 @@ no endereço  http://localhost:3333/answers/8?u=f7f4032b-273b-4854-b782-651de19a
     }
 
 observar banco de dados em surveys_users.
+
+no insomnia criar uma pasta NPS -> um request Calculate
+    aparece no preview:
+    {
+       "detractor": 0,
+       "promoters": 2,
+       "passive": 1,
+       "totalAnswers": 3,
+       "nps": 66.66666666666666
+    }
+
+
+
+
 
 
 
