@@ -407,7 +407,7 @@ ver o insomnia, e digitar no body:
 
 
 
-ver o insomnia, e digitar no body:  
+ver o insomnia, e digitar no body: // novamente
   {
     "email": "melda13@gmail.com",
     "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7"
@@ -416,11 +416,29 @@ ver o insomnia, e digitar no body:
   
   no preview aparece:
   {
-    "id": "f7f4032b-273b-4854-b782-651de19ab91b",
-    "user_id": "e09ddff5-b114-43d5-b37f-ecf102858b4e",
-    "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
-    "created_at": "2021-03-23T01:17:21.000Z"
+      "id": "f7f4032b-273b-4854-b782-651de19ab91b",
+      "user_id": "e09ddff5-b114-43d5-b37f-ecf102858b4e",
+      "survey_id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+      "value": null,
+      "created_at": "2021-03-23T01:17:21.000Z",
+      "user": {
+        "id": "e09ddff5-b114-43d5-b37f-ecf102858b4e",
+        "name": "Mel",
+        "email": "melda13@gmail.com",
+        "created_at": "2021-03-01T14:10:57.000Z"
+      },
+      "survey": {
+        "id": "beefb0a3-a6ff-465b-9bd4-4618bc305cc7",
+        "title": "diga sua opinião.",
+        "description": "de 0 a 10",
+        "created_at": "2021-03-04T00:15:35.000Z"
+      }
   }
+
+ver o link no console vscode
+
+
+
 
 
 
