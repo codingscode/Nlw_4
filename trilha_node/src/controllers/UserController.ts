@@ -10,8 +10,8 @@ class UserController {
       console.log(name, email)
 
       const schema = yup.object().shape({
-         name: yup.string().required(),
-         email: yup.string().email().required()
+         name: yup.string().required('Nome é obrigatório'),
+         email: yup.string().email().required('Email incorreto')
       })
       
       /* if (!(await schema.isValid(request.body))) {

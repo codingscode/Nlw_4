@@ -545,7 +545,49 @@ no insomnia na pasta Users -> Create     usar no JSon corpo:
       }
 
 
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {}
 
+     no preview aparece:
+      {
+        "error": {
+          "name": "ValidationError",
+          "value": {},
+          "errors": [
+            "Nome é obrigatório",
+            "Email incorreto"
+          ],
+          "inner": [
+            {
+              "name": "ValidationError",
+              "path": "name",
+              "type": "required",
+              "errors": [
+                "Nome é obrigatório"
+              ],
+              "inner": [],
+              "message": "Nome é obrigatório",
+              "params": {
+                "path": "name"
+              }
+            },
+            {
+              "name": "ValidationError",
+              "path": "email",
+              "type": "required",
+              "errors": [
+                "Email incorreto"
+              ],
+              "inner": [],
+              "message": "Email incorreto",
+              "params": {
+                "path": "email"
+              }
+            }
+          ],
+          "message": "2 errors occurred"
+        }
+      }
 
 
 
