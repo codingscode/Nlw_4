@@ -461,7 +461,21 @@ no insomnia criar uma pasta NPS -> um request Calculate
 
 
 
+https://github.com/jquense/yup
 
+
+no terminal da pasta trilha_node digitar:
+    npm i yup
+    npm run dev
+
+
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {}
+
+     no preview aparece:
+     {
+        "error": "Validação Falhou!"
+     }
 
 
 
