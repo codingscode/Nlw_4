@@ -631,8 +631,19 @@ no insomnia na pasta Users -> Create     usar no JSon corpo:
         }
 
 
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {
+      "name": "Shaolin2",
+      "email": "shaolin2@gmail.com"
+     }
 
-
+     no preview aparece:
+      {
+        "id": "b357aae4-57ef-48e1-b0e5-3cdd5afe7e0b",
+        "name": "Shaolin2",
+        "email": "shaolin2@gmail.com",
+        "created_at": "2021-03-24T01:24:06.000Z"
+      }
 
 
 
