@@ -19,7 +19,7 @@ class UserController {
       } */
       // forma alternativa
       try {
-         await schema.validate(request.body)
+         await schema.validate(request.body, { abortEarly: false })
       }
       catch (err) {
          return response.status(400).json({ error: err })

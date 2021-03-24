@@ -500,6 +500,83 @@ no insomnia na pasta Users -> Create     usar no JSon corpo:
         }
 
 
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {}
+
+     no preview aparece:
+      {
+        "error": {
+          "name": "ValidationError",
+          "value": {},
+          "errors": [
+            "name is a required field",
+            "email is a required field"
+          ],
+          "inner": [
+            {
+              "name": "ValidationError",
+              "path": "name",
+              "type": "required",
+              "errors": [
+                "name is a required field"
+              ],
+              "inner": [],
+              "message": "name is a required field",
+              "params": {
+                "path": "name"
+              }
+            },
+            {
+              "name": "ValidationError",
+              "path": "email",
+              "type": "required",
+              "errors": [
+                "email is a required field"
+              ],
+              "inner": [],
+              "message": "email is a required field",
+              "params": {
+                "path": "email"
+              }
+            }
+          ],
+          "message": "2 errors occurred"
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
