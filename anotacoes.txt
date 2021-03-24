@@ -590,8 +590,45 @@ no insomnia na pasta Users -> Create     usar no JSon corpo:
       }
 
 
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {
+      "name": "Shaolin",
+      "email": "shaolin_incorreto"
+     }
 
-
+     no preview aparece:
+        {
+          "error": {
+            "name": "ValidationError",
+            "value": {
+              "name": "Shaolin",
+              "email": "shaolin_incorreto"
+            },
+            "errors": [
+              "email must be a valid email"
+            ],
+            "inner": [
+              {
+                "name": "ValidationError",
+                "value": "shaolin_incorreto",
+                "path": "email",
+                "type": "email",
+                "errors": [
+                  "email must be a valid email"
+                ],
+                "inner": [],
+                "message": "email must be a valid email",
+                "params": {
+                  "value": "shaolin_incorreto",
+                  "originalValue": "shaolin_incorreto",
+                  "path": "email",
+                  "regex": {}
+                }
+              }
+            ],
+            "message": "email must be a valid email"
+          }
+        }
 
 
 
