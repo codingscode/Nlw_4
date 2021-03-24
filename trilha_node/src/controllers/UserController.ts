@@ -14,8 +14,15 @@ class UserController {
          email: yup.string().email().required()
       })
       
-      if (!(await schema.isValid(request.body))) {
+      /* if (!(await schema.isValid(request.body))) {
          return response.status(400).json({ error: 'Validação Falhou!' })
+      } */
+      // forma alternativa
+      try {
+         await schema.validate(request.body)
+      }
+      catch (err) {
+         return response.status(400).json({ error: err })
       }
 
       const usersRepository = getCustomRepository(UsersRepository)
