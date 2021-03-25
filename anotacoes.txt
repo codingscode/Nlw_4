@@ -649,10 +649,16 @@ no insomnia na pasta Users -> Create     usar no JSon corpo:
 
 no terminal da pasta trilha_node digitar:
     npm run test             //  rodar duas vezes
+    npm run dev
 
 
+no insomnia na pasta Users -> Create     usar no JSon corpo:
+     {
+      "name": "Shaolin2",
+      "email": "shaolin2@gmail.com"
+     }
 
-
+    o programa fica rodando sem parar
 
 
 
