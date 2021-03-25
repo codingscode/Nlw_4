@@ -10,14 +10,10 @@ class UserController {
       console.log(name, email)
 
       const schema = yup.object().shape({
-         name: yup.string().required('Nome é obrigatório'),
-         email: yup.string().email().required('Email incorreto')
+         name: yup.string().required(),
+         email: yup.string().email().required()
       })
       
-      /* if (!(await schema.isValid(request.body))) {
-         return response.status(400).json({ error: 'Validação Falhou!' })
-      } */
-      // forma alternativa
       try {
          await schema.validate(request.body, { abortEarly: false })
       }
